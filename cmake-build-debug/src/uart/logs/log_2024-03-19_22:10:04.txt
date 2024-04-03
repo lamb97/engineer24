@@ -1,0 +1,24 @@
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     static bool SerialPortParam::LoadFromYamlFile(const string&, SerialPortParam*) Begin     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [error] SerialPortParam was loaded failure because yaml file does not exist
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     static bool SerialPortParam::LoadFromYamlFile(const string&, SerialPortParam*) End     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::SetParam(const SerialPortParam&) Begin     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] [SerialPort] - SerialPortParam was set successful
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::SetParam(const SerialPortParam&) End     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::RegisterDataReceivedHandler(DataReceivedHandler, void*) Begin     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] [SerialPort] - DataReceivedHandler was registered successful
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::RegisterDataReceivedHandler(DataReceivedHandler, void*) End     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::Init() Begin     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] [SerialPort] - SerialPort was initialized successful
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::Init() End     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::Open() Begin     ********************
+[2024-03-19 22:10:04.498] [EasyLogger] [error] [SerialPort] - SerialPort's FileDescriptor was got failure
+[2024-03-19 22:10:04.498] [EasyLogger] [info] ********************     bool SerialPort::Open() End     ********************
+[2024-03-19 22:10:11.026] [EasyLogger] [info] ********************     bool SerialPort::Close() Begin     ********************
+[2024-03-19 22:10:11.026] [EasyLogger] [warning] [SerialPort] - SerialPort can not be closed repeatedly
+[2024-03-19 22:10:11.026] [EasyLogger] [info] ********************     bool SerialPort::Close() End     ********************
+[2024-03-19 22:10:11.026] [EasyLogger] [info] ********************     bool SerialPort::Release() Begin     ********************
+[2024-03-19 22:10:11.026] [EasyLogger] [info] [SerialPort] - SerialPort was released successful
+[2024-03-19 22:10:11.026] [EasyLogger] [info] ********************     bool SerialPort::Release() End     ********************
+[2024-03-19 22:10:11.026] [EasyLogger] [info] ********************     bool SerialPort::UnregisterDataReceivedHandler() Begin     ********************
+[2024-03-19 22:10:11.026] [EasyLogger] [info] [SerialPort] - DataReceivedHandler was unregistered successful
+[2024-03-19 22:10:11.026] [EasyLogger] [info] ********************     bool SerialPort::UnregisterDataReceivedHandler() End     ********************

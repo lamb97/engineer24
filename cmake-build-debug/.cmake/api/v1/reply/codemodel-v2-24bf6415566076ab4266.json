@@ -1,0 +1,253 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/src",
+					"jsonFile" : "directory-src.src-Debug-f97005367c28a9500a27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/src",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "src/camera",
+					"jsonFile" : "directory-src.camera-Debug-0f0ba899435f05029974.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/camera",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "src/uart",
+					"jsonFile" : "directory-src.uart-Debug-7b69a29eb1381df5d646.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/uart",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						14
+					]
+				},
+				{
+					"build" : "src/logger",
+					"jsonFile" : "directory-src.logger-Debug-c9781aa9fc5299a8f3ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/logger",
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "engineer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "camera::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-camera-Debug-4eb2b7e1fe8517ef5eb5.json",
+					"name" : "camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "engineer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-engineer-Debug-d4c14e6857bd86bbeb76.json",
+					"name" : "engineer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "logger::@d5374f2bfdcf69980c1c",
+					"jsonFile" : "target-logger-Debug-5b1792c67200a210585a.json",
+					"name" : "logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "src::@f0be1f35632ad855dac2",
+					"jsonFile" : "target-src-Debug-2089e5f8830d7f6c9556.json",
+					"name" : "src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test1::@f0be1f35632ad855dac2",
+					"jsonFile" : "target-test1-Debug-cb95e2ed27405ffd5137.json",
+					"name" : "test1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_easy_logger::@d5374f2bfdcf69980c1c",
+					"jsonFile" : "target-test_easy_logger-Debug-60c6fc2c809a206baa96.json",
+					"name" : "test_easy_logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_serial_port::@4e83b24bfdffc061e60d",
+					"jsonFile" : "target-test_serial_port-Debug-d149361b2a548aa04c5b.json",
+					"name" : "test_serial_port",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_serial_port_param::@4e83b24bfdffc061e60d",
+					"jsonFile" : "target-test_serial_port_param-Debug-fafc611656c67e332b34.json",
+					"name" : "test_serial_port_param",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_spdlog::@d5374f2bfdcf69980c1c",
+					"jsonFile" : "target-test_spdlog-Debug-a9da473333d690fa4c7c.json",
+					"name" : "test_spdlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_uvc_camera_offline::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-test_uvc_camera_offline-Debug-3e63ede56ab6a88c87f6.json",
+					"name" : "test_uvc_camera_offline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_uvc_camera_online::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-test_uvc_camera_online-Debug-039dda76b8cc2e3005f1.json",
+					"name" : "test_uvc_camera_online",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_uvc_camera_param::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-test_uvc_camera_param-Debug-fac60c4ee34149a750a9.json",
+					"name" : "test_uvc_camera_param",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_uvc_camera_reconnect::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-test_uvc_camera_reconnect-Debug-f8351d8241872938f6f6.json",
+					"name" : "test_uvc_camera_reconnect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_uvc_camera_switch_hardware_param::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-test_uvc_camera_switch_hardware_param-Debug-5433572ed70996f5cd09.json",
+					"name" : "test_uvc_camera_switch_hardware_param",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uart::@4e83b24bfdffc061e60d",
+					"jsonFile" : "target-uart-Debug-1666011e7f722728bf90.json",
+					"name" : "uart",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lamb97/\u4e0b\u8f7d/engineer/cmake-build-debug",
+		"source" : "/home/lamb97/\u4e0b\u8f7d/engineer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
